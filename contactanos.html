@@ -9,18 +9,17 @@
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <title>Formulario de contacto</title>
 </head>
 
 <body>
     <header>
         <div class="container">
-            <img src="Logo.png">
+            <img src="Logo.png" alt="Logo">
             <nav>
                 <a href="index.html">Inicio</a>
                 <a href="sobrenosotros.html">Sobre Nosotros</a>
                 <a href="nuestrosservicios.html">Nuestros Servicios</a>
-                <a href="contactanos.html">Contactanos</a>
+                <a href="contactanos.html">Contáctanos</a>
             </nav>
         </div>
     </header>
@@ -29,50 +28,47 @@
     </section>
     <div class="container">
         <main>
-            <div class="container">
-                <h1>Formulario de Contacto</h1>
+            <div class="formulario">
+                <h2>Contactanos</h2>
                 <form action="#" method="post">
-                  <div class="form-group">
-                    <label for="nombre">Nombre Completo</label>
-                    <input type="text" id="nombre" name="nombre" required>
-                  </div>
-                  <div class="form-group">
-                    <label for="telefono">Número Telefónico</label>
-                    <input type="tel" id="telefono" name="telefono" required>
-                  </div>
-                  <div class="form-group">
-                    <label for="email">Correo Electrónico</label>
-                    <input type="email" id="email" name="email" required>
-                  </div>
-                  <div class="form-group">
-                    <label for="comentarios">Comentarios</label>
-                    <textarea id="comentarios" name="comentarios" rows="4" required></textarea>
-                  </div>
-                  <div class="form-group">
-                    <label for="medio_contacto">Preferencia de Contacto</label>
-                    <select id="medio_contacto" name="medio_contacto" required>
-                      <option value="telefono">Teléfono</option>
-                      <option value="correo">Correo</option>
-                      <option value="whatsapp">WhatsApp</option>
-                    </select>
-                  </div>
-                  <button type="submit" class="btn-enviar">Enviar</button>
+                    <div class="form-group">
+                        <label for="nombre">Nombre Completo</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="telefono">Número Telefónico</label>
+                        <input type="tel" id="telefono" name="telefono" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="comentarios">Comentarios</label>
+                        <textarea id="comentarios" name="comentarios" rows="4" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="medio_contacto">Preferencia de Contacto</label>
+                        <select id="medio_contacto" name="medio_contacto" required>
+                            <option value="telefono">Teléfono</option>
+                            <option value="correo">Correo</option>
+                            <option value="whatsapp">WhatsApp</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn-enviar">Enviar</button>
                 </form>
-              </div>
+            </div>
         </main>
     </div>
     <footer>
-        <p><i class="fa-solid fa-location-dot" style="color: #278d20;"></i> Cra. 6 # 62b-32 Edificio Sexta Avenida B/La
-            Castellana - Montería, Córdoba</p>
-        <p><i class="fa-solid fa-phone" style="color: #278d20;"></i> 304 373 15 04 / 304 256 88 81 / 321 903 25 85 / 300
-            509 28 51</p>
-        <p><i class="fa-regular fa-envelope" style="color: #278d20;"></i>elianagarciaadmon@gmail.com /
-            elianagarciarecursoshumanos@gmail.com</p>
+        <p><i class="fas fa-location-dot" style="color: #278d20;"></i> Cra. 6 # 62b-32 Edificio Sexta Avenida B/La Castellana - Montería, Córdoba</p>
+        <p><i class="fas fa-phone" style="color: #278d20;"></i> 304 373 15 04 / 304 256 88 81 / 321 903 25 85 / 300 509 28 51</p>
+        <p><i class="far fa-envelope" style="color: #278d20;"></i> elianagarciaadmon@gmail.com / elianagarciarecursoshumanos@gmail.com</p>
         <div class="container">
             <p> Since-2023 &copy; Copyright Henry Tordecilla</p>
         </div>
     </footer>
-
+    <script src="contactanos.js"></script>
 </body>
 
 </html>
